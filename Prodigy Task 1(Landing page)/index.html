@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JJ Boutique</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="navbar">
+            <div class="logo">JJ Boutique</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div id="home">
+        <h1>Welcome to JJ Boutique</h1>
+        <p>Your one-stop shop for all your fashion needs.</p>
+        <a href="#shop" class="shop1">Shop Now</a>
+    </div>
+
+    <div id="about">
+        <h2>About Us</h2>
+        <p>At JJ Boutique, we pride ourselves on offering a curated selection of fashion-forward pieces that combine contemporary design with timeless elegance. Our mission is to empower individuals to express their unique style through high-quality clothing and accessories. Whether you're looking for the latest trends or classic staples, JJ Boutique is your destination for fashion that speaks to you.</p>
+    </div>
+
+    <div id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Personal Styling: Our expert stylists are available to help you find the perfect outfit for any occasion.</li>
+            <li>Custom Tailoring: We offer custom tailoring services to ensure a perfect fit for all your garments.</li>
+            <li>Exclusive Collections: Discover limited-edition collections available only at JJ Boutique.</li>
+            <li>Gift Wrapping: Complimentary gift wrapping is available for all purchases, perfect for any special occasion.</li>
+            <li>Home Delivery: Enjoy the convenience of shopping from home with our reliable delivery service.</li>
+        </ul>
+    </div>
+
+    <div id="shop">
+        <h2>Shop Now</h2>
+        <p>Explore our latest collection of fashion wear.</p>
+        <div class="shopgallery">
+            <div class="shopitem">
+                <img src="dress1.jpg" alt="Elegant Dress">
+                <p class="price">$5000</p>
+            </div>
+            <div class="shopitem">
+                <img src="suit.jpg" alt="Men's Suit">
+                <p class="price">$10000</p>
+            </div>
+            <div class="shopitem">
+                <img src="accessory.jpg" alt="Stylish Accessories">
+                <p class="price">$500</p>
+            </div>
+            <div class="shopitem">
+                <img src="casual.jpg" alt="Casual Wear">
+                <p class="price">$2000</p>
+            </div>
+        </div>
+    </div>
+    
+    <div id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us for any inquiries.</p>
+        <form id="contactForm" class="contactform">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        
+            <button type="submit">Send Message</button>
+        </form>
+        
+       
+        <div id="formMessage" class="form-message"></div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
